@@ -1,6 +1,6 @@
 {
   "name": "@megmore/lang-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "业务多语言适配器",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
@@ -11,7 +11,7 @@
     "build:cjs": "cross-env TYPE=cjs rollup -c build/build.js",
     "build:es": "cross-env TYPE=es rollup -c build/build.js",
     "build": "npm run build:es && npm run build:umd && npm run build:cjs",
-    "pub": "npm run build && npm publish --access=public"
+    "pub": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
